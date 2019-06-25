@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Cell from './Cell.js'
 
 export default class Cell extends Component {
 
@@ -11,8 +12,8 @@ export default class Cell extends Component {
 
     render() {
         return(
-            <div class="cell" style={{backgroundColor: '{this.state.color}'}} onClick="{this.state.color=#333}">
-
+            <div className="cell" style={{backgroundColor: '{this.state.color}'}} onClick="{this.state.color=#333}">
+                
             </div>
         )
     }
